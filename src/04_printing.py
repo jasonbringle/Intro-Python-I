@@ -11,9 +11,16 @@ z = "I like turtles!"
 # Using the printf operator (%), print the following feeding in the values of x,
 # y, and z:
 # x is 10, y is 2.25, z is "I like turtles!"
-print(f"x is %d, y is %.2f, z is %s" % (x,y,z))
+print("x is %d, y is %.2f, z is %s" % (x,y,z))
+# d is decimal
+# f is float
+# s is string
+# % in string usage maske the start of the specifier
 
 # Use the 'format' string method to print the same thing
 print("x is {0}, y is {1:.2f}, z is {2}".format(x, y, z))
+# {0} is a type of string interpolation and references the id of the item in the list.
+
 # Finally, print the same thing using an f-string
 print(f"x is {x}, y is {y:.2f}, z is {z}")
+# Same thing as format string but use and 'f' before the string and does not need the items in brackets in the statement

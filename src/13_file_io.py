@@ -27,7 +27,9 @@ f.close
 
 # YOUR CODE HERE
 doc = open("bar.txt", "w")
-doc.write("THis is a line of text.  This is another line of text.  This is yet another line of text")
+doc.write("THis is a line of text.")
+doc.write("This is another line of text.")
+doc.write("This is yet another line of text")
 doc.close()
 doc = open("bar.txt", "r")
 print(doc.read())

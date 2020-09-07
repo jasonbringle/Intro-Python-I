@@ -30,3 +30,26 @@ it should use today’s date to get the month and year.
 import sys
 import calendar
 from datetime import datetime
+
+curDate = datetime.now().timetuple()
+
+# If the length of the input contains three separate entities and the second argument is greater than zero but less than 13...
+if len(sys.argv) == 3 and 0 < int(sys.argv[1]) < 13:
+# then print the calender month using the integer from the first argv and the year from the second argv
+    print(calendar.month(int(sys.argv[2]), int(sys.argv[1])))
+
+
+# Else if the length of the input is equal to 2
+elif len(sys.argv) == 2:
+#Print the calender month with the current year and use the first argv to show the month
+    print(calendar.month(curDate.tm_year, int(sys.argv[1])))
+
+# Else if the length of the input is 1 
+elif len(sys.argv) == 1:
+# then just display the current year and month
+    print(calendar.month(curDate.tm_year, curDate.tm_mon))
+
+else:
+# ELse if the input is any other length display instructions on how to format the submission
+    print("please launch file with proper [month] [year] format")
+

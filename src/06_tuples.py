@@ -45,3 +45,30 @@ print_tuple(t)  # Prints 1 2 5 7 99, one per line
 # Declare a tuple of 1 element then print it
 u = (1,)  # What needs to be added to make this work?
 print_tuple(u)
+
+# count()
+# This method returns the number of times a specified value appears in the tuple.
+
+# tuple.count(value)
+
+# Example:
+
+# Copy
+# >>> my_tuple = (1, 3, 4, 5, 2, 3, 4, 6, 7, 2)
+# >>> x = my_tuple.count(4)
+# >>> x
+# 2
+# >>>
+# index()
+# This method finds the first occurrence of the specified value. It will raise an exception if the value is not found.
+
+# tuple.index(value)
+
+# Example:
+
+# Copy
+# >>> my_tuple = (1, 3, 7, 2, 7, 5, 3, 2, 9, 3)
+# >>> x = my_tuple.index(7)
+# >>> x
+# 2
+# >>>

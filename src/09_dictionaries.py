@@ -61,7 +61,7 @@ for i in waypoints:
         print(e)
     
 
-# clear()
+clear()
 # This method removes all the elements from a dictionary.
 
 # dictionary.clear()
@@ -80,7 +80,8 @@ for i in waypoints:
 # >>> car
 # {}
 # >>>
-# copy()
+
+copy()
 # This method returns a copy of the specified dictionary.
 
 # dictionary.copy()
@@ -99,7 +100,7 @@ for i in waypoints:
 # >>> car
 # {'brand': 'Honda', 'model': 'CR-V', 'year': 2002}
 # >>>
-# fromkeys()
+fromkeys()
 # This method returns a dictionary with the specified keys and values. The keys parameter is required, but the value parameter is optional. If we pass no value, the default value will be None.
 
 # dict.fromkeys(keys, value)
@@ -116,7 +117,7 @@ for i in waypoints:
 # >>> dict_without_values
 # {'key1': None, 'key2': None, 'key3': None}
 # >>>
-# get()
+get()
 # This method returns the value of the item with the specified key.
 
 # dictionary.get(keyname, value)
@@ -135,7 +136,7 @@ for i in waypoints:
 # >>> x
 # 'CR-V'
 # >>>
-# items()
+items()
 # This method returns a view object. The view object contains the key-value pairs of the dictionary, as tuples in a list.
 
 # The view object will reflect any future changes done to the dictionary.
@@ -154,7 +155,7 @@ for i in waypoints:
 # >>> x
 # dict_items([('brand', 'Honda'), ('model', 'CR-V'), ('year', 2002)])
 # >>>
-# keys()
+keys()
 # This method returns a view object. The view object contains the keys of the dictionary, as a list.
 
 # The view object will reflect any future changes done to the dictionary.
@@ -173,7 +174,7 @@ for i in waypoints:
 # >>> x
 # dict_keys(['brand', 'model', 'year'])
 # >>>
-# pop()
+pop()
 # This method removes the specified item from the dictionary. The value of the removed item is the return value of this method.
 
 # dictionary.pop(keyname, defaultvalue)
@@ -192,7 +193,7 @@ for i in waypoints:
 # >>> x
 # 'CR-V'
 # >>>
-# popitem()
+popitem()
 # This method removes and returns some (key, value) pair as a tuple.
 
 # dictionary.popitem(keyname, defaultvalue)
@@ -217,7 +218,7 @@ for i in waypoints:
 # >>> car
 # {'brand': 'Honda', 'model': 'CR-V'}
 # >>>
-# setdefault()
+setdefault()
 # This method returns the value of the item with the specified key. If the key doesn’t exist, insert the key, with the specified value.
 
 # dictionary.setdefault(keyname, value)
@@ -241,7 +242,7 @@ for i in waypoints:
 # >>> car
 # {'brand': 'Honda', 'model': 'CR-V', 'year': 2002, 'color': 'black'}
 # >>>
-# update()
+update()
 # This method inserts the specified items to the dictionary. The specified items can be a dictionary, or an iterable object.
 
 # dictionary.update(iterable)
@@ -258,7 +259,7 @@ for i in waypoints:
 # >>> car
 # {'brand': 'Honda', 'model': 'CR-V', 'year': 2002, 'color': 'black'}
 # >>>
-# values()
+values()
 # This method returns a view object. The view object contains the values of the dictionary, as a list.
 
 # The view object will reflect any future changes done to the dictionary.
